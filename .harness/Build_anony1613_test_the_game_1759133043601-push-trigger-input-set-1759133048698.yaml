@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_anony1613_test_the_game_1759133043601-push-trigger-input-set
+  identifier: Build_anony1613_test_the_game_1759133043601pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: kubernetesdeployment
+  pipeline:
+    identifier: Build_anony1613_test_the_game_1759133043601
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
